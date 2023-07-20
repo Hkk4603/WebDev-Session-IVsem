@@ -1,0 +1,41 @@
+/*
+    topics: 
+    html hypertext-markup
+    css 
+    js
+    box-sizing: border-box; 
+    box-model 
+    position: relative and absolute
+    display: flex and grid
+    align-items, justify-content, flex-direction, align-self
+    flex-grow, flex-basis, flex-shirnk, 
+*/
+
+.box1{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center; /*horizontally*/ 
+    align-items: center; /*vertically*/
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    border: 5px dotted red;
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+}

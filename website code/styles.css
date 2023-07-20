@@ -1,0 +1,73 @@
+
+.customRequire {
+    color: red;
+}
+
+.Membership_description{
+    margin: 1em 4em;
+}
+
+.Membership_description h2{
+    margin: 1em 0;
+}
+
+.form-outline input{
+    background-color: rgb(226, 226, 226);
+    border: none;
+    opacity: 0.9;
+    height: 3rem;
+}
+
+.form-outline textarea{
+    background-color: #73777B;
+    color: white;
+    border: none;
+    opacity: 0.9;
+    height: 7.7rem;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.21);
+-webkit-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.21);
+-moz-box-shadow: 10px 10px 8px 0px rgba(0,0,0,0.21);
+}
+
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.footer p{
+    color: grey;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.message{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.footerTitle{
+    /* color: grey; */
+    text-align: center;
+}
+
+.footer::placeholder{
+    color: yellow;
+}
+
+
+.copyright{
+    background-color: #000;
+    color: grey;
+    text-align: center;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+}
